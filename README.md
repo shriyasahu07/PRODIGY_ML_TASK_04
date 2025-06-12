@@ -1,4 +1,4 @@
-Project File Descriptions
+Project File Descriptions: 
 train_model.ipynb: This notebook handles the training of the CNN model for hand gesture recognition.It includes data loading, preprocessing, model architecture (using Keras), training, and saving the final model as gesture_model.h5.
 gesture_model.h5: This is the trained deep learning model file saved after training in train_model.ipynb.It contains the weights and structure of the CNN model used to recognize hand gestures.
 evaluate_model.ipynb: This notebook evaluates the performance of the trained model on the validation dataset.It includes preprocessing, loading the model, making predictions, and printing a classification report with accuracy, precision, recall, and F1-score.
